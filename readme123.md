@@ -5,21 +5,21 @@
 2. Asignar roles, así:
    * 2 Developers  
    * 1 Release manager
-3. Fork del repositorio
+3. Fork del repositorio - RM
    * https://github.com/CarlosNapaR/TechLab_GitFlow-IBK
 4. Clonar el repositorio copiado.
-5. Validar que existan ramas Main y Dev.
-6. Validar que estén bloqueadas o que no permitan subir cambios directamente.
-7. Developer 1 crea rama "feature_1".
+5. Validar que existan ramas Main y Dev (COMO VALIDARLO MEDIANTE CÓDIGO) - WEB
+6. Validar que estén bloqueadas o que no permitan subir cambios directamente. - WEB - RM
+7. Developer 1 crea rama "feature_1" 
 8. Crear archivo "alumnos.txt" e ingresar su nombre, apellido y equipo/mesa al que pertenece.
-9. Realizar comandos necesarios para subir la rama temporal a repositorio remoto.
+9. Realizar comandos necesarios para subir la rama temporal a repositorio remoto. (Pull / Add / Commit / Push)
 10. Developer 2 clona la rama feature_1 y agrega su nombre, apellido y grupo en el archivo alumnos.txt
-11. Developer 2 confirma cambios al repositorio remoto (Solucionar conflictos).
-12. Developer 1 realiza Pull Request a la rama Dev.
-13. Release Manager valida que esten los nombres de los developers, acepta el MR y valida que la rama se elimine automáticamente.
+11. Developer 2 confirma cambios al repositorio remoto (Solucionar conflictos) EN CASO EXISTAN).
+12. Developer 1 realiza Pull Request a la rama Dev. (CUAL ES LA FORMA DE REALIZARLO)
+13. Release Manager valida que esten los nombres de los developers, acepta el MR y valida que la rama se elimine automáticamente. (DONDE VALIDAMOS ELLO).
 14. Release Manager genera rama Release.
-15. Release Manager detecta que falta el nombre de un integrante del equipo, por lo que genera un bug en la rama release.
-16. Clonar rama release.
+15. Release Manager detecta que falta el nombre de un integrante del equipo, por lo que genera un bug en la rama release. (ENTIENDO QUE RM)
+16. Clonar rama release. (¿QUIEN LO HACE?)
 17. Generar rama bug y agregar el nombre del release manager con equipo/mesa a la que pertenece en el archivo "alumnos.txt"
 18. Confirmar la rama bug en repositorio remoto y hacer Pull Request a la rama release. 
 19. Release Manager acepta *Merge Request* si sus datos son correctos.
