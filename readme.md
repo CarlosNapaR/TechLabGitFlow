@@ -1,7 +1,7 @@
 # BIENVENIDOS AL TECH LAB DE GIT FLOW    
 
 ## Primera Parte
-1. Hacer grupos de 4 personas
+1. Hacer grupos de 3 personas
 2. Asignar roles, así:
    * 3 Developers  
    * 1 Release manager
