@@ -3,18 +3,18 @@
 ## Primera Parte
 1. Hacer grupos de 3 personas
 2. Asignar roles, así:
-   * 3 Developers  
+   * 2 Developers  
    * 1 Release manager
 3. Fork del repositorio
-   * <https://github.com/isanchezf/TechLabGitFlow.git>
+   * <https://github.com/CarlosNapaR/TechLabGitFlow.git>
 4. Clonar repositorio copia.
 5. Validar que existan ramas Main y Dev
 6. Validar que esten bloqueadas o que no permitan subir cambios directamente.
 7. Developer 1 crea rama feature_1
 8. En caso de no existir, crear archivo alumnos.txt e ingresar su nombre y mesa a la que pertenece.
 9.  Realizar comandos necesarios para subir la rama temporal a repositorio remoto.
-10. Developer 2 y 3 clonan rama feature_1 y agregan sus nombres y mesa en la que estan en el archivo alumnos.txt
-11. Developer 2 y 3 confirman cambios al repositorio remoto (Solucionar conflictos).
+10. Developer 2 y 3 clonan rama feature_1 y agregan sus nombres y grupo en la que estan en el archivo alumnos.txt
+11. Developer 2 y 3 confirman cambios al repositorio remoto (Solucionar conflictos en caso existan).
 12. Developer 1 realizar Merge Request a la rama Dev.
 13. Release Manager valida que esten los nombres de los developers y acepta el MR.
 14. Release Manager genera rama Release.
@@ -24,7 +24,7 @@
 18. Confirmar la rama bug en repositorio remoto y hacer Merge Request a la rama release.
 19. Release Manager acepta *Merge Request* si sus datos son correctos.
 20. Release manager realiza *Merge Request* a rama Main.
-21. Release manager genera Release y genera tag con la estretegía de versionamiento semantico, aumentando el digito de Cambio Mayor.
+21. Release manager genera Release y genera tag con la estrategia de versionamiento semántico, aumentando el digito de Cambio Mayor.
 
 ## Segunda parte
 
